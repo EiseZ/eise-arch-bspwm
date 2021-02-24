@@ -1,0 +1,40 @@
+font:
+  normal:
+    family: Source Code Pro
+    style: medium
+
+  bold:
+    family: Source Code Pro
+    style: bolrd
+
+  italic:
+    family: Source Code Pro
+    style: "medium italic"
+
+  size: 12.0
+
+colors:
+  primary:
+    background: '0x232530'
+    foreground: '0xffffff'
+
+  normal:
+    blue: '0x88dcf0'
+    magenta: '0xee5aaa'
+    green: '0x4be67b'
+    red: '0xed4f4c'
+    white: '0xe7e7e7'
+    yellow: '0xefe686'
+
+mouse:
+  hide_when_typing: true
+
+
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+
+cursor:
+  style: block
+  unfoccused_hollow: true
+
+live_config_reload: true
